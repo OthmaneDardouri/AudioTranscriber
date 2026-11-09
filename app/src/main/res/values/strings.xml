@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vocale AI</string>
+    <string name="share_label">Trascrivi vocale</string>
+    <string name="listener_label">Vocale AI · rileva vocali WhatsApp</string>
+</resources>
