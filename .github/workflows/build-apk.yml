@@ -21,6 +21,8 @@ jobs:
           java-version: "17"
 
       - uses: android-actions/setup-android@v3
+        with:
+          packages: platform-tools
 
       - name: Scarica whisper.cpp
         run: git clone --depth 1 --branch v1.7.4 https://github.com/ggml-org/whisper.cpp app/src/main/cpp/whisper.cpp
